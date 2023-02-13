@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Seletores</title>
+  <style>
+    #main-title {
+      font-size: 60px;
+    }
+
+    .main-container {
+      background-color: yellowgreen;
+    }
+
+    .subtext-container {
+      width: 500px;
+      background-color: aqua;
+    }
+
+    .subtext-container .paragraph {
+      font-size: 12px;
+    }
+
+    .aside-content {
+      width: 500px;
+      background-color: brown;
+    }
+
+    .aside-content {
+      color: white;
+    }
+
+    .text-color-red {
+      color: red;
+    }
+
+    #paragraph {
+      font-size: 40px;
+    }
+
+    .paragraph {
+      font-size: 25px;
+      font-family: Arial;
+    }
+
+    p {
+      font-size: 10px;
+    }
+
+    footer p.paragraph {
+      font-size: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="main-title">Titulo</h1>
+  <main class="main-container">
+    <div class="subtext-container">
+      <h4 class="text-color-red">H4 text</h4>
+      <p class="paragraph">texto</p>
+      <p class="paragraph text-color-red">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+    </div>
+    <aside class="aside-content">
+      <h4>H4 text</h4>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+    </aside>
+    <section>
+      <h4>H4 text</h4>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+      <p class="paragraph">texto</p>
+    </section>
+  </main>
+  <footer>
+    <h4>H4 text</h4>
+    <p class="paragraph">texto</p>
+    <p class="paragraph">texto</p>
+    <p class="paragraph">texto</p>
+    <p class="paragraph">texto</p>
+    <p class="paragraph">texto</p>
+    <p class="paragraph" id="paragraph">texto</p>
+  </footer>
+</body>
+
+</html>
